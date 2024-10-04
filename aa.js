@@ -16,6 +16,7 @@ const data = [
   },
 ];
 
+// I set timer for 10 second, after 10 sec it will stop
 function repeatFn(count) {
   if (count > 10) {
     return console.log("Done");
