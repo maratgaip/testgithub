@@ -28,3 +28,8 @@ function repeatFn(count) {
 }
 
 repeatFn(1);
+
+const newData = {
+    name:"Seytech",
+    last:"aaa"
+}
