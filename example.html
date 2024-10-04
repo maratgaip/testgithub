@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+  </head>
+  <body>
+    <h1 id="count">Counter</h1>
 
-</head>
-<body>
+    <script>
+      let count = 0;
 
-
-<script>
-
-/* 
-create a repo
-push/pull
-how to merge
-resolve conflict
-
-
-staging branch
-production branch
-
- */
-</script>
-</body>
+      function countToTen() {
+        if (count < 10) {
+          count++;
+          return count;
+          setTimeout(countToTen, 3000);
+          document.getElementById("count").innerHTML = count;
+        }
+      }
+    </script>
+  </body>
 </html>
