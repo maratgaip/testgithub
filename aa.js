@@ -17,3 +17,9 @@ const data = [
         list: ["asd", "asdad"]
     },
 ]
+
+
+const newData = {
+    name:"Seytech",
+    last:"aaa"
+}
